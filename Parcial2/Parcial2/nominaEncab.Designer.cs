@@ -51,13 +51,13 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.BackColor = System.Drawing.Color.LightYellow;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(297, 24);
+            this.label1.Location = new System.Drawing.Point(202, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(116, 30);
+            this.label1.Size = new System.Drawing.Size(323, 30);
             this.label1.TabIndex = 3;
-            this.label1.Text = "NÓMINA";
+            this.label1.Text = "GENERACIÓN DE NÓMINA";
             // 
             // Gpb_datos
             // 
@@ -73,7 +73,7 @@
             this.Gpb_datos.Size = new System.Drawing.Size(680, 108);
             this.Gpb_datos.TabIndex = 4;
             this.Gpb_datos.TabStop = false;
-            this.Gpb_datos.Text = "Encabezado";
+            this.Gpb_datos.Text = "Encabezado Nómina";
             // 
             // Dtp_final
             // 
@@ -147,11 +147,11 @@
             this.Btn_siguiente.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_siguiente.ForeColor = System.Drawing.Color.Black;
             this.Btn_siguiente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Btn_siguiente.Location = new System.Drawing.Point(561, 332);
+            this.Btn_siguiente.Location = new System.Drawing.Point(484, 332);
             this.Btn_siguiente.Name = "Btn_siguiente";
-            this.Btn_siguiente.Size = new System.Drawing.Size(130, 47);
+            this.Btn_siguiente.Size = new System.Drawing.Size(207, 47);
             this.Btn_siguiente.TabIndex = 37;
-            this.Btn_siguiente.Text = "Registrar >>";
+            this.Btn_siguiente.Text = "Registrar  Concepto>>";
             this.Btn_siguiente.UseVisualStyleBackColor = false;
             this.Btn_siguiente.Click += new System.EventHandler(this.Btn_siguiente_Click);
             // 
@@ -169,7 +169,7 @@
             this.groupBox1.Size = new System.Drawing.Size(680, 108);
             this.groupBox1.TabIndex = 44;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Detalles";
+            this.groupBox1.Text = "Registro de Conceptos";
             // 
             // Txt_valor
             // 
@@ -229,7 +229,7 @@
             // nominaEncab
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.NavajoWhite;
             this.ClientSize = new System.Drawing.Size(735, 413);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.Btn_siguiente);
@@ -240,7 +240,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "nominaEncab";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Nómina";
+            this.Text = "Generación de Nómina";
             this.Load += new System.EventHandler(this.Mov_banc_encabezado_Load);
             this.Gpb_datos.ResumeLayout(false);
             this.Gpb_datos.PerformLayout();
