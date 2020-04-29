@@ -147,6 +147,8 @@ namespace CapaVistaFRM
                     {
                         codigo2.ExecuteNonQuery();
                         conn.Close();
+                        MessageBox.Show("Se creó la nómina correctamente!", "NOMINA", 
+                            MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     catch (OdbcException ex)
                     {

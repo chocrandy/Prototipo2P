@@ -94,12 +94,9 @@ C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\Seg
 C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\SegundoParcial\Prototipo2P\Parcial2\Parcial2\obj\Debug\Parcial2.csproj.GenerateResource.cache
 C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\SegundoParcial\Prototipo2P\Parcial2\Parcial2\obj\Debug\Parcial2.csproj.CoreCompileInputs.cache
 C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\SegundoParcial\Prototipo2P\Parcial2\Parcial2\obj\Debug\Parcial2.csproj.CopyComplete
-<<<<<<< HEAD
 C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\SegundoParcial\Prototipo2P\Parcial2\Parcial2\obj\Debug\CapaVistaFRM.mantenimiento_concepto.resources
 C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\SegundoParcial\Prototipo2P\Parcial2\Parcial2\obj\Debug\CapaVistaFRM.mantenimiento_departamento.resources
 C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\SegundoParcial\Prototipo2P\Parcial2\Parcial2\obj\Debug\CapaVistaFRM.mantenimiento_empleado.resources
 C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\SegundoParcial\Prototipo2P\Parcial2\Parcial2\obj\Debug\CapaVistaFRM.nominaEncab.resources
 C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\SegundoParcial\Prototipo2P\Parcial2\Parcial2\obj\Debug\CapaVistaFRM.transEncab.resources
 C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\SegundoParcial\Prototipo2P\Parcial2\Parcial2\obj\Debug\CapaVistaFRM.mantenimiento_puesto.resources
-=======
->>>>>>> b580a94a104c75dc30eb229fd2f37620f2f0e3c0

@@ -50,7 +50,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.BackColor = System.Drawing.Color.LightYellow;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(197, 21);
             this.label1.Name = "label1";
@@ -87,11 +87,11 @@
             this.Btn_consultar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_consultar.ForeColor = System.Drawing.Color.Black;
             this.Btn_consultar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Btn_consultar.Location = new System.Drawing.Point(490, 35);
+            this.Btn_consultar.Location = new System.Drawing.Point(463, 35);
             this.Btn_consultar.Name = "Btn_consultar";
-            this.Btn_consultar.Size = new System.Drawing.Size(149, 42);
+            this.Btn_consultar.Size = new System.Drawing.Size(176, 42);
             this.Btn_consultar.TabIndex = 37;
-            this.Btn_consultar.Text = "Consultar";
+            this.Btn_consultar.Text = "Consultar Nómina";
             this.Btn_consultar.UseVisualStyleBackColor = false;
             this.Btn_consultar.Click += new System.EventHandler(this.Btn_consultar_Click);
             // 
@@ -147,17 +147,17 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(81, 437);
+            this.label2.Location = new System.Drawing.Point(60, 436);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 19);
+            this.label2.Size = new System.Drawing.Size(165, 19);
             this.label2.TabIndex = 39;
-            this.label2.Text = "Conceptos: ";
+            this.label2.Text = "Total de Conceptos: ";
             // 
             // Lbl_conceptos
             // 
             this.Lbl_conceptos.AutoSize = true;
             this.Lbl_conceptos.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_conceptos.Location = new System.Drawing.Point(206, 437);
+            this.Lbl_conceptos.Location = new System.Drawing.Point(240, 436);
             this.Lbl_conceptos.Name = "Lbl_conceptos";
             this.Lbl_conceptos.Size = new System.Drawing.Size(51, 24);
             this.Lbl_conceptos.TabIndex = 40;
@@ -167,7 +167,7 @@
             // 
             this.Lbl_empleados.AutoSize = true;
             this.Lbl_empleados.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_empleados.Location = new System.Drawing.Point(206, 398);
+            this.Lbl_empleados.Location = new System.Drawing.Point(240, 392);
             this.Lbl_empleados.Name = "Lbl_empleados";
             this.Lbl_empleados.Size = new System.Drawing.Size(51, 24);
             this.Lbl_empleados.TabIndex = 42;
@@ -176,17 +176,17 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(81, 398);
+            this.label4.Location = new System.Drawing.Point(24, 396);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(104, 19);
+            this.label4.Size = new System.Drawing.Size(201, 19);
             this.label4.TabIndex = 41;
-            this.label4.Text = "Empleados: ";
+            this.label4.Text = "Sueldo Base Empleados: ";
             // 
             // Lbl_totalT
             // 
             this.Lbl_totalT.AutoSize = true;
             this.Lbl_totalT.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_totalT.Location = new System.Drawing.Point(512, 392);
+            this.Lbl_totalT.Location = new System.Drawing.Point(538, 388);
             this.Lbl_totalT.Name = "Lbl_totalT";
             this.Lbl_totalT.Size = new System.Drawing.Size(51, 24);
             this.Lbl_totalT.TabIndex = 44;
@@ -195,16 +195,16 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(440, 392);
+            this.label6.Location = new System.Drawing.Point(412, 392);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(53, 19);
+            this.label6.Size = new System.Drawing.Size(120, 19);
             this.label6.TabIndex = 43;
-            this.label6.Text = "Total: ";
+            this.label6.Text = "Total Nómina: ";
             // 
             // transEncab
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.NavajoWhite;
             this.ClientSize = new System.Drawing.Size(712, 492);
             this.Controls.Add(this.Lbl_totalT);
             this.Controls.Add(this.label6);
