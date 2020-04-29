@@ -62,6 +62,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="mantenimiento_concepto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,12 +87,15 @@
     <Compile Include="mantenimiento_puesto.Designer.cs">
       <DependentUpon>mantenimiento_puesto.cs</DependentUpon>
     </Compile>
+=======
+>>>>>>> b580a94a104c75dc30eb229fd2f37620f2f0e3c0
     <Compile Include="MDI_Parcial2.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MDI_Parcial2.Designer.cs">
       <DependentUpon>MDI_Parcial2.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="nominaEncab.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,6 +128,13 @@
     <EmbeddedResource Include="nominaEncab.resx">
       <DependentUpon>nominaEncab.cs</DependentUpon>
     </EmbeddedResource>
+=======
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MDI_Parcial2.resx">
+      <DependentUpon>MDI_Parcial2.cs</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> b580a94a104c75dc30eb229fd2f37620f2f0e3c0
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -133,9 +144,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <EmbeddedResource Include="transEncab.resx">
       <DependentUpon>transEncab.cs</DependentUpon>
     </EmbeddedResource>
+=======
+>>>>>>> b580a94a104c75dc30eb229fd2f37620f2f0e3c0
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

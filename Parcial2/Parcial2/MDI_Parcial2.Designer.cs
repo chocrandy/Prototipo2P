@@ -33,6 +33,7 @@
             this.inicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mantenimientosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bonoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+<<<<<<< HEAD
             this.departamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.empleadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.puestoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -44,6 +45,16 @@
             this.herramientasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.seguridadToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.Lbl_usuario = new System.Windows.Forms.Label();
+=======
+            this.contabilidadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.nominaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.transferenciaBancariaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Lbl_usuario = new System.Windows.Forms.Label();
+            this.informesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.herramientasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.seguridadToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+>>>>>>> b580a94a104c75dc30eb229fd2f37620f2f0e3c0
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -72,10 +83,14 @@
             // mantenimientosToolStripMenuItem
             // 
             this.mantenimientosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+<<<<<<< HEAD
             this.bonoToolStripMenuItem,
             this.departamentoToolStripMenuItem,
             this.empleadoToolStripMenuItem,
             this.puestoToolStripMenuItem});
+=======
+            this.bonoToolStripMenuItem});
+>>>>>>> b580a94a104c75dc30eb229fd2f37620f2f0e3c0
             this.mantenimientosToolStripMenuItem.Name = "mantenimientosToolStripMenuItem";
             this.mantenimientosToolStripMenuItem.Size = new System.Drawing.Size(97, 24);
             this.mantenimientosToolStripMenuItem.Text = "Catálogos";
@@ -83,6 +98,7 @@
             // bonoToolStripMenuItem
             // 
             this.bonoToolStripMenuItem.Name = "bonoToolStripMenuItem";
+<<<<<<< HEAD
             this.bonoToolStripMenuItem.Size = new System.Drawing.Size(186, 24);
             this.bonoToolStripMenuItem.Text = "Concepto";
             this.bonoToolStripMenuItem.Click += new System.EventHandler(this.BonoToolStripMenuItem_Click);
@@ -108,6 +124,12 @@
             this.puestoToolStripMenuItem.Text = "Puesto";
             this.puestoToolStripMenuItem.Click += new System.EventHandler(this.PuestoToolStripMenuItem_Click);
             // 
+=======
+            this.bonoToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.bonoToolStripMenuItem.Text = "Concepto";
+            this.bonoToolStripMenuItem.Click += new System.EventHandler(this.BonoToolStripMenuItem_Click);
+            // 
+>>>>>>> b580a94a104c75dc30eb229fd2f37620f2f0e3c0
             // contabilidadToolStripMenuItem
             // 
             this.contabilidadToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -131,33 +153,8 @@
             this.transferenciaBancariaToolStripMenuItem.Text = "Transferencia Bancaria";
             this.transferenciaBancariaToolStripMenuItem.Click += new System.EventHandler(this.TransferenciaBancariaToolStripMenuItem_Click);
             // 
-            // informesToolStripMenuItem
-            // 
-            this.informesToolStripMenuItem.Name = "informesToolStripMenuItem";
-            this.informesToolStripMenuItem.Size = new System.Drawing.Size(84, 24);
-            this.informesToolStripMenuItem.Text = "Informes";
-            // 
-            // ayudaToolStripMenuItem
-            // 
-            this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
-            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(69, 24);
-            this.ayudaToolStripMenuItem.Text = "Ayuda";
-            // 
-            // herramientasToolStripMenuItem
-            // 
-            this.herramientasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.seguridadToolStripMenuItem1});
-            this.herramientasToolStripMenuItem.Name = "herramientasToolStripMenuItem";
-            this.herramientasToolStripMenuItem.Size = new System.Drawing.Size(117, 24);
-            this.herramientasToolStripMenuItem.Text = "Herramientas";
-            // 
-            // seguridadToolStripMenuItem1
-            // 
-            this.seguridadToolStripMenuItem1.Name = "seguridadToolStripMenuItem1";
-            this.seguridadToolStripMenuItem1.Size = new System.Drawing.Size(180, 24);
-            this.seguridadToolStripMenuItem1.Text = "Seguridad";
-            this.seguridadToolStripMenuItem1.Click += new System.EventHandler(this.SeguridadToolStripMenuItem1_Click);
-            // 
+<<<<<<< HEAD
+=======
             // Lbl_usuario
             // 
             this.Lbl_usuario.AutoSize = true;
@@ -170,12 +167,70 @@
             this.Lbl_usuario.Text = "Usuario";
             this.Lbl_usuario.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+>>>>>>> b580a94a104c75dc30eb229fd2f37620f2f0e3c0
+            // informesToolStripMenuItem
+            // 
+            this.informesToolStripMenuItem.Name = "informesToolStripMenuItem";
+            this.informesToolStripMenuItem.Size = new System.Drawing.Size(84, 24);
+            this.informesToolStripMenuItem.Text = "Informes";
+            // 
+<<<<<<< HEAD
+            // ayudaToolStripMenuItem
+            // 
+            this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
+            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(69, 24);
+            this.ayudaToolStripMenuItem.Text = "Ayuda";
+            // 
+=======
+>>>>>>> b580a94a104c75dc30eb229fd2f37620f2f0e3c0
+            // herramientasToolStripMenuItem
+            // 
+            this.herramientasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.seguridadToolStripMenuItem1});
+            this.herramientasToolStripMenuItem.Name = "herramientasToolStripMenuItem";
+            this.herramientasToolStripMenuItem.Size = new System.Drawing.Size(117, 24);
+            this.herramientasToolStripMenuItem.Text = "Herramientas";
+            // 
+<<<<<<< HEAD
+=======
+            // ayudaToolStripMenuItem
+            // 
+            this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
+            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(69, 24);
+            this.ayudaToolStripMenuItem.Text = "Ayuda";
+            // 
+>>>>>>> b580a94a104c75dc30eb229fd2f37620f2f0e3c0
+            // seguridadToolStripMenuItem1
+            // 
+            this.seguridadToolStripMenuItem1.Name = "seguridadToolStripMenuItem1";
+            this.seguridadToolStripMenuItem1.Size = new System.Drawing.Size(180, 24);
+            this.seguridadToolStripMenuItem1.Text = "Seguridad";
+            this.seguridadToolStripMenuItem1.Click += new System.EventHandler(this.SeguridadToolStripMenuItem1_Click);
+            // 
+<<<<<<< HEAD
+            // Lbl_usuario
+            // 
+            this.Lbl_usuario.AutoSize = true;
+            this.Lbl_usuario.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.Lbl_usuario.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_usuario.Location = new System.Drawing.Point(0, 429);
+            this.Lbl_usuario.Name = "Lbl_usuario";
+            this.Lbl_usuario.Size = new System.Drawing.Size(66, 21);
+            this.Lbl_usuario.TabIndex = 2;
+            this.Lbl_usuario.Text = "Usuario";
+            this.Lbl_usuario.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+=======
+>>>>>>> b580a94a104c75dc30eb229fd2f37620f2f0e3c0
             // MDI_Parcial2
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+<<<<<<< HEAD
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+=======
+>>>>>>> b580a94a104c75dc30eb229fd2f37620f2f0e3c0
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Lbl_usuario);
             this.Controls.Add(this.menuStrip1);
@@ -202,6 +257,7 @@
         private System.Windows.Forms.ToolStripMenuItem contabilidadToolStripMenuItem;
         private System.Windows.Forms.Label Lbl_usuario;
         private System.Windows.Forms.ToolStripMenuItem bonoToolStripMenuItem;
+<<<<<<< HEAD
         private System.Windows.Forms.ToolStripMenuItem departamentoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem empleadoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem puestoToolStripMenuItem;
@@ -210,6 +266,13 @@
         private System.Windows.Forms.ToolStripMenuItem informesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem herramientasToolStripMenuItem;
+=======
+        private System.Windows.Forms.ToolStripMenuItem nominaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem transferenciaBancariaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem informesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem herramientasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
+>>>>>>> b580a94a104c75dc30eb229fd2f37620f2f0e3c0
         private System.Windows.Forms.ToolStripMenuItem seguridadToolStripMenuItem1;
     }
 }
